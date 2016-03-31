@@ -1,0 +1,27 @@
+{
+  "name": "json2po",
+  "version": "1.0.0",
+  "description": "Converts angular-translate to po file",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp --gulpfile test/gulpfile.js test"
+  },
+  "keywords": [
+    "angular-translate",
+    "json",
+    "po"
+  ],
+  "author": "Lasse Brudeskar Vikås",
+  "license": "ISC",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp-rename": "^1.2.2"
+  }
+}
