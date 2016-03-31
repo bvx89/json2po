@@ -5,7 +5,7 @@ __NOTE:__ Currently only supports flat-structured JSON.
 # Example
 Assuming a local file `en.json` with valid JSON
 
-```
+```javascript
 gulp.task('build', function() {
     return gulp.src('en.json')
       .pipe(json2po('template_en.po'))
@@ -20,7 +20,7 @@ Properties header information that will be merged with the default values into t
  
  Current default values:
 
-```
+```javascript
  {
     'Project-Id-Version': 'Sample Project',
     'POT-Creation-Date': TODAY,
