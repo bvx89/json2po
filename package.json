@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Converts angular-translate to po file",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bvx89/json2po.git"
+  },
   "directories": {
     "test": "test"
   },
@@ -22,6 +26,7 @@
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "gulp-rename": "^1.2.2"
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2"
   }
 }

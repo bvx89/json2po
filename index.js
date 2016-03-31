@@ -57,11 +57,23 @@ const constructPo = (props, file) => {
 };
 
 module.exports = (properties, filename) => {
+	if (properties === undefined || properties === null) {
+		properties = {};
+	} else if (typeof properties === 'string' && filename === undefined){
+		filename = properties;
+		properties = {};
+	}
+	
+	if (filename === undefined) {
+		throw new Error('No filename specified');
+	}
+
 	return through.obj(function(file, enc, cb) {
 		if (file.isNull()) {
 			cb(null, file);
 			return;
 		}
+
 		const props = extend({}, DEFAULT_VALUES, properties);
 		try {
 			const result = constructPo(props, file);
