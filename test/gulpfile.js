@@ -5,7 +5,7 @@ var json2po = require('../index');
 
 gulp.task('test', function() {
 	return gulp.src('fixture/no.json')
-		.pipe(json2po({'Language-Team': 'Geomatikk'}, 'template_no.po'))
+		.pipe(json2po({'Language-Team': 'My Team'}, 'template_no.po'))
 		.pipe(gulp.dest('.'))
 });
 

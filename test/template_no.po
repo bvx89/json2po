@@ -1,0 +1,345 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sample Project\n"
+"POT-Creation-Date: 2016-4-8\n"
+"PO-Revision-Date: 2016-4-8\n"
+"Last-Translator: \n"
+"Language-Team: Geomatikk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: no\n"
+"X-Generator: None\n"
+
+msgid "WORK"
+msgstr "arbeid"
+
+msgid "TILSYN"
+msgstr "tilsyn"
+
+msgid "PREFERENCES"
+msgstr "innstillinger"
+
+msgid "MAP"
+msgstr "kart"
+
+msgid "HOME"
+msgstr "hjem"
+
+msgid "MINE"
+msgstr "mine"
+
+msgid "ALL"
+msgstr "alle"
+
+msgid "LOG_OUT"
+msgstr "logg ut"
+
+msgid "SEARCH"
+msgstr "søk"
+
+msgid "CASE"
+msgstr "sak"
+
+msgid "PRIVATE"
+msgstr "privat"
+
+msgid "SAVE"
+msgstr "lagre"
+
+msgid "DETAILS"
+msgstr "detaljer"
+
+msgid "PLACE"
+msgstr "sted"
+
+msgid "PLACE_PLURAL"
+msgstr "steder"
+
+msgid "ADDRESS"
+msgstr "adresse"
+
+msgid "ADDRESS_PLURAL"
+msgstr "adresser"
+
+msgid "CANCEL"
+msgstr "avbryt"
+
+msgid "DESCRIPTION"
+msgstr "beskrivelse"
+
+msgid "IMAGES_FOR_TILSYN"
+msgstr "bilder for tilsyn"
+
+msgid "TILSYN_DETAILS"
+msgstr "tilsynsdetaljer"
+
+msgid "IMAGES"
+msgstr "bilder"
+
+msgid "RESPONSIBLE_PEOPLE"
+msgstr "ansvarlige personer"
+
+msgid "STATUS"
+msgstr "status"
+
+msgid "TITLE"
+msgstr "tittel"
+
+msgid "PULLING_TEXT"
+msgstr "Dra ned for å oppdatere"
+
+msgid "WORKING_PERIOD"
+msgstr "arbeidsperiode"
+
+msgid "ORGANIZATIONS"
+msgstr "organisasjoner"
+
+msgid "ADD_NEW_FORMS"
+msgstr "legg til skjema"
+
+msgid "REGISTERED_DATE"
+msgstr "registrert dato"
+
+msgid "FETCHING_LOCATION"
+msgstr "henter lokasjon..."
+
+msgid "NO_FORMS"
+msgstr "Ingen skjema."
+
+msgid "NO_ELEMENTS_FOUND_IN_SEARCH"
+msgstr "ingen elementer i søket"
+
+msgid "TEMPORARY_STORED"
+msgstr "midlertidig lagret"
+
+msgid "COPYRIGHT_INFO"
+msgstr "kopirettigheter 2016 Geomatikk-IKT AS"
+
+msgid "WORK_PERIOD"
+msgstr "arbeidsperiode"
+
+msgid "NUMBER_OF_ELEMENTS_EACH_LOAD"
+msgstr "antall elementer per lasting"
+
+msgid "COMPLETING_TILSYN_RECIPIENT_OF_REPORT"
+msgstr "mottakere av tilsynsrapport"
+
+msgid "COMPLETING_TILSYN_OTHERS_HEADER"
+msgstr "andre mottakere"
+
+msgid "COMPLETING_TILSYN_ADD_NEW_OTHERS"
+msgstr "legg til andre mottakere"
+
+msgid "TILSYN_CREATED"
+msgstr "Tilsyn opprettet"
+
+msgid "TILSYN_COMPLETED"
+msgstr "Tilsyn utført"
+
+msgid "DOCUMENTS"
+msgstr "dokumenter"
+
+msgid "NO_DOCUMENTS"
+msgstr "ingen dokumenter"
+
+msgid "REMOVE"
+msgstr "fjern"
+
+msgid "CREATE_TILSYN"
+msgstr "opprett tilsyn"
+
+msgid "COMPLETE_TILSYN"
+msgstr "fullfør tilsyn"
+
+msgid "WARNING_TILSYN_STATUS_UNCHANGEABLE"
+msgstr "Kan ikke endre tilsynsstatus på utført tilsyn"
+
+msgid "CREATE"
+msgstr "opprett"
+
+msgid "PERFORM_TILSYN_SEND_REPORT"
+msgstr "Utfør tilsyn og send rapport"
+
+msgid "FORMS"
+msgstr "skjema"
+
+msgid "FORM"
+msgstr "skjema"
+
+msgid "FORM_SAVED"
+msgstr "Skjema lagret"
+
+msgid "FORM_VALID"
+msgstr "Ferdig utfylt"
+
+msgid "FORM_INVALID"
+msgstr "Ikke utfylt"
+
+msgid "NO_FORMS_ON_TILSYN"
+msgstr "Ingen skjema på tilsyn"
+
+msgid "ONE_OR_MORE_FORMS_NOT_VALID"
+msgstr "En eller flere skjema er ikke utfylt"
+
+msgid "CONFIRM_DELETING_FORM_X"
+msgstr "Er du sikker på at du vil slette skjemaet \"{name}\"?"
+
+msgid "WARNING_NONE_EMPTY_FIELDS"
+msgstr "Vennligst tøm feltene for andre mottakere før utføring av tilsyn.\n Husk å trykke på 'pluss' for å legge til mottakeren"
+
+msgid "ERROR_GETTING_SAK_DETAILS"
+msgstr "En feil oppstod ved henting av detaljer, prøv igjen senere"
+
+msgid "WARN_NO_DOCUMENTS"
+msgstr "Ingen dokumenter å vise"
+
+msgid "WARN_NO_TILSYN"
+msgstr "Ingen tilsyn å vise"
+
+msgid "LOCATION_TIMEOUT"
+msgstr "Kunne ikke finne din lokasjon innen %d sekunder."
+
+msgid "LOCATION_ACTIVATION_PROMPT"
+msgstr "Har du husket å aktivere stedstjenester?"
+
+msgid "LOCATION_PERMISSION_DENIED"
+msgstr "Mangler tillatelse for å aksessere din lokasjonsdata"
+
+msgid "LOCATION_POSITION_UNAVAILABLE"
+msgstr "Kunne ikke finne din posisjon grunnet manglende nettverks- og/eller satelittdekning"
+
+msgid "MAP_LEGEND_DESCRIPTION"
+msgstr "Beskrivelse av kartikoner"
+
+msgid "ICONS"
+msgstr "ikoner"
+
+msgid "COLORS"
+msgstr "farger"
+
+msgid "MAP_LEGEND_MARKER_SHOVEL_DESCRIPTION"
+msgstr "Markør med spade: Gravearbeid"
+
+msgid "MAP_LEGEND_MARKER_HELMET_DESCRIPTION"
+msgstr "Markør med hjelm: Andre arbeid"
+
+msgid "MAP_LEGEND_MARKER_TRANSPARENT_DESCRIPTION"
+msgstr "Gjennomsiktig markør: Ikke påbegynt arbeid"
+
+msgid "MAP_LEGEND_MARKER_BLUE_DESCRIPTION"
+msgstr "Blå markør: Arbeid i gang, ingen tilsyn"
+
+msgid "MAP_LEGEND_MARKER_GREEN_DESCRIPTION"
+msgstr "Grønn markør: Arbeid i gang, har tilsyn"
+
+msgid "MAP_LEGEND_MARKER_RED_DESCRIPTION"
+msgstr "Rød markør: Arbeid i gang, alle tilsyn er utført"
+
+msgid "MAP_LEGEND_MARKER_PINK_DESCRIPTION"
+msgstr "Rosa markør: Arbeid i gang, alle tilsyn er utført for minst 10 dager siden"
+
+msgid "UNKNOWN_ERROR"
+msgstr "Ukjent feil"
+
+msgid "ERROR_DOWNLOADING_DATA"
+msgstr "En feil oppstod ved innhenting av data."
+
+msgid "ERROR_DOWNLOAD_FAILED"
+msgstr "Feil ved nedlasting"
+
+msgid "ERROR_FILE_NOT_FOUND_ON_SERVER"
+msgstr "Filen eksisterer ikke på serveren"
+
+msgid "ERROR_NO_CONNECTION"
+msgstr "Ingen nettilgang."
+
+msgid "ERROR_UPLOADING_FORM"
+msgstr "En feil oppstod ved lagring av skjema"
+
+msgid "ERROR_UPLOADING_IMAGE"
+msgstr "Opplasting av bilde feilet"
+
+msgid "ERROR_OPEN_DOCUMENT"
+msgstr "Fel ved åpning av dokument"
+
+msgid "WARNING_FORM_INVALID"
+msgstr "Vennligst fyll inn alle påkrevde felter (merket med *)"
+
+msgid "DOWNLOADED_X_NEW_IMAGES"
+msgstr "Lastet ned %d nye bilder"
+
+msgid "DELETED_X_IMAGES"
+msgstr "Slettet %d bilder"
+
+msgid "IMAGE_DELETED"
+msgstr "Bilde er slettet"
+
+msgid "FROM_CAMERA"
+msgstr "Fra kamera"
+
+msgid "FROM_ALBUM"
+msgstr "Fra album"
+
+msgid "ACTIVATE_DELETEMODE"
+msgstr "Aktivér slettemodus"
+
+msgid "DEACTIVATE_DELETEMODE"
+msgstr "Deaktivér slettemodus"
+
+msgid "CHOOSE_IMAGE_SOURCE"
+msgstr "Velg kilde for bilde"
+
+msgid "SHOW_ME_WHERE_I_AM"
+msgstr "Vis meg hvor jeg er"
+
+msgid "LOCATION_POPUP_MSG"
+msgstr "Du er innen {distance} {unit} fra midtpunktet"
+
+msgid "LOCATION_OUTSIDE_MAP"
+msgstr "Det ser ut til at din posisjon er utenfor kartet"
+
+msgid "METERS"
+msgstr "meter"
+
+msgid "INCHES"
+msgstr "tommer"
+
+msgid "FILES"
+msgstr "filer"
+
+msgid "CANCELED"
+msgstr "Henlagt"
+
+msgid "REGISTERED"
+msgstr "Registrert"
+
+msgid "FOR_INSPECTION"
+msgstr "Til kontroll"
+
+msgid "COMPLETED"
+msgstr "Utført"
+
+msgid "CONTROL"
+msgstr "Kontroll"
+
+msgid "CONTROL_FINISHED"
+msgstr "Ferdigmeldt kontroll"
+
+msgid "INSPECTION"
+msgstr "Befaring"
+
+msgid "FILES_DELETED_SUCCESS"
+msgstr "Fjernet midlertidige filer"
+
+msgid "ERROR_REMOVING_TEMPORARY_FILES"
+msgstr "En feil oppstod ved fjerning av midlertidige filer"
+
+msgid "ERROR_TILSYN_BELONGS_TO_ANOTHER"
+msgstr "Tilsynet tilhører annen kontrollør, kan ikke fullføre forespørsel"
+
+msgid "ERROR_UPDATING"
+msgstr "Feil ved oppdatering"
+
+msgid "CHANGE_STATUS"
+msgstr "Endre status"
