@@ -1,6 +1,6 @@
 {
   "name": "json2po",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Converts angular-translate to po file",
   "main": "index.js",
   "repository": {

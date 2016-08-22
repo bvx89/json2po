@@ -38,16 +38,26 @@ const constructHeader = (props) => {
 	return res;
 };
 
+const isObject = (obj) => obj === Object(obj);
+
+const populateTranslation = (res, trans, prevKey) => {
+	Object.keys(trans).forEach((key) => {
+		const id = (prevKey ? prevKey + '.' + key : key);
+		if ((isObject(trans[key]))) {
+			populateTranslation(res, trans[key], id);
+		} else {
+			res.push('');
+			res.push(`${MSGID} "${id}"`);
+			res.push(`${MSGSTR} ${JSON.stringify(trans[key])}`);
+		}
+	});
+};
+
 const writeTranslations = (file) => {
 	var res = [];
 	var trans = JSON.parse(file.contents.toString());
 
-	Object.keys(trans).forEach((key) => {
-		res.push('');
-		res.push(`${MSGID} "${key}"`);
-		res.push(`${MSGSTR} "${trans[key]}"`);
-	});
-	
+	populateTranslation(res, trans);
 	return res;
 };
 
