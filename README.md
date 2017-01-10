@@ -1,6 +1,5 @@
-Simple gulp task for generating .po-files from angular-translate JSON files.
+Simple lib for generating .po-files from JSON files.
 
-__NOTE:__ Currently only supports flat-structured JSON.
  
 # Example
 Assuming a local file `en.json` with valid JSON
@@ -14,23 +13,23 @@ gulp.task('build', function() {
 ```
 
 # API
-```json2po([properties, ] filename)```  
+```json2po([properties, ] filecontent)```  
 
 Properties header information that will be merged with the default values into the resulting .po-file.
  
- Current default values:
+Current default values:
 
-```javascript
+```json
  {
-    'Project-Id-Version': 'Sample Project',
-    'POT-Creation-Date': TODAY,
-    'PO-Revision-Date': TODAY,
-    'Last-Translator': '',
-    'Language-Team': '',
-    'MIME-Version': '1.0',
-    'Content-Type': 'text/plain; charset=utf-8',
-    'Content-Transfer-Encoding': '8bit',
-    'Language': 'no',
-    'X-Generator': 'None'
+    "Project-Id-Version": "Sample Project",
+    "POT-Creation-Date": "${today}",
+    "PO-Revision-Date": "${today}",
+    "Last-Translator": "",
+    "Language-Team": "",
+    "MIME-Version": "1.0",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Content-Transfer-Encoding": "8bit",
+    "Language": "no",
+    "X-Generator": "None"
  }
 ```
